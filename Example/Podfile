@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SocialSignIn_Example' do
+  pod 'SocialSignIn', :path => '../'
+
+  target 'SocialSignIn_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
