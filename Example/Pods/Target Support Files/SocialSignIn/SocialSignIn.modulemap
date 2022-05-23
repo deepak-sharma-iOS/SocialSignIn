@@ -1,0 +1,6 @@
+framework module SocialSignIn {
+  umbrella header "SocialSignIn-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SocialSignIn (0.1.0)
+
+DEPENDENCIES:
+  - SocialSignIn (from `../`)
+
+EXTERNAL SOURCES:
+  SocialSignIn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SocialSignIn: 3f99ae73718658d3808375eaaf5663886ffe8b83
+
+PODFILE CHECKSUM: ac624a64a5cc6fac85ba0ac47c2f0389fdeca775
+
+COCOAPODS: 1.11.3

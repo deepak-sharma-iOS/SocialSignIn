@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC0A6998B78457B045C3EF6B966FF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		41137D0A6745C8B352CD22EC117C4100 /* Pods-SocialSignIn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F905E4C246BBEF02876986C5596AAD8D /* Pods-SocialSignIn_Example-dummy.m */; };
+		5E489C8968668C9C017D1AFA4D22974F /* Pods-SocialSignIn_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 245966F2404086E088C73CB4B23764E6 /* Pods-SocialSignIn_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A15B764E58E5305BB5EBAD3F875FA9F /* Pods-SocialSignIn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9342FE4550E8DA40799F9EE58710CE3D /* Pods-SocialSignIn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0AFEEC283BAE7C00E703F7 /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEEB283BAE7C00E703F7 /* GoogleSignIn.swift */; };
+		B2B48BB98861856A39A25507A156EFE5 /* Pods-SocialSignIn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F0A37AF5A56752DA8D9187C022D107 /* Pods-SocialSignIn_Tests-dummy.m */; };
+		B5CB9ED6DCDE9640327098F3DC5C6653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E7A5B68E3D5A937D0D4ECCF614D82E11 /* SocialSignIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C66A75E07AB8F430EA54491EDD88D7 /* SocialSignIn-dummy.m */; };
+		F5CAD67D66D3C878B7C3B660769CD7EC /* SocialSignIn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE4BAF35D9FB18417AC08FAABB50938 /* SocialSignIn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB1BA46C0901B0E66EE45752AE5135F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C4B5D7359BD39E4DBFA3282EE14ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D6405B9AB53CD4FD3043DBE91F3E34;
+			remoteInfo = "Pods-SocialSignIn_Example";
+		};
+		787EACA93754A75854124C83BB058716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368885331187646DCF2B9FE80FE31C8D;
+			remoteInfo = SocialSignIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8B15243DB14AFAE7464C205C0EC548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		245966F2404086E088C73CB4B23764E6 /* Pods-SocialSignIn_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialSignIn_Example-umbrella.h"; sourceTree = "<group>"; };
+		25B99C45B08A4CB28F6C2290BF707044 /* Pods-SocialSignIn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialSignIn_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A383DF55326404372C86A7B57E699CE /* Pods-SocialSignIn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialSignIn_Tests.modulemap"; sourceTree = "<group>"; };
+		3072CF11386C705827079E489DC657AF /* Pods-SocialSignIn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialSignIn_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36C66A75E07AB8F430EA54491EDD88D7 /* SocialSignIn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocialSignIn-dummy.m"; sourceTree = "<group>"; };
+		49A52DD9F02B32568B55EF255F4467DB /* Pods-SocialSignIn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialSignIn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D645FADA5626BB17FF4F1C34604855 /* SocialSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialSignIn.debug.xcconfig; sourceTree = "<group>"; };
+		5C577F58A76DED16A030A8B46DA6ECF5 /* Pods-SocialSignIn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialSignIn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60D0C4878E9E2A0EC4A5C8BC1C077240 /* Pods-SocialSignIn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialSignIn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6884932AB1288B45BB1A8F84FA369F75 /* Pods-SocialSignIn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialSignIn_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76F0A37AF5A56752DA8D9187C022D107 /* Pods-SocialSignIn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialSignIn_Tests-dummy.m"; sourceTree = "<group>"; };
+		7AF000A75DA2FBB356228DCD600CC027 /* SocialSignIn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocialSignIn.modulemap; sourceTree = "<group>"; };
+		9342FE4550E8DA40799F9EE58710CE3D /* Pods-SocialSignIn_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialSignIn_Tests-umbrella.h"; sourceTree = "<group>"; };
+		999C6A361335C0EDBECDBFD449E4A9C5 /* Pods-SocialSignIn_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialSignIn_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86ADA14B01A3CDB3BE53FC05F045B47 /* SocialSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialSignIn.release.xcconfig; sourceTree = "<group>"; };
+		AACCB3373CD479DE5278887736CC2FE0 /* SocialSignIn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocialSignIn-Info.plist"; sourceTree = "<group>"; };
+		AE0AFEEB283BAE7C00E703F7 /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		B4B45F0BC3F63B711F8BABAA541E6225 /* SocialSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ABD509D1B5965ED28DBD46744C1272 /* Pods-SocialSignIn_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialSignIn_Tests-Info.plist"; sourceTree = "<group>"; };
+		BD3E48EF61CA545703719FD2F5374CDB /* Pods-SocialSignIn_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialSignIn_Example.modulemap"; sourceTree = "<group>"; };
+		C51EB0389E1FD79697F68ED7677D7D3B /* Pods-SocialSignIn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialSignIn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAE4BAF35D9FB18417AC08FAABB50938 /* SocialSignIn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialSignIn-umbrella.h"; sourceTree = "<group>"; };
+		DBFCCAE66CEF87CA0054C5278C057D3F /* SocialSignIn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialSignIn-prefix.pch"; sourceTree = "<group>"; };
+		E7937CB929446514FBDB119B4B645B3B /* Pods_SocialSignIn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSignIn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F3D45872ED11BF5719B5A8A6436CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2D58D28A8330B6709FAB759172C2891 /* Pods_SocialSignIn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSignIn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E221E28F84D2BA5CA48F1D35E707EE /* Pods-SocialSignIn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialSignIn_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F905E4C246BBEF02876986C5596AAD8D /* Pods-SocialSignIn_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialSignIn_Example-dummy.m"; sourceTree = "<group>"; };
+		FD11CFAB2DA966283D36EFD8EB6902D3 /* Pods-SocialSignIn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialSignIn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF8ED9F3C1EF64D65944CDABE4DC7F2C /* SocialSignIn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SocialSignIn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69FB33F6A362815B3A8B2EAE4780C140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CB9ED6DCDE9640327098F3DC5C6653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AA3F71D809B486E391D93242598E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1BA46C0901B0E66EE45752AE5135F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A8573B1C96C4AA5612C99768BEDC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0A6998B78457B045C3EF6B966FF52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151C107062C48A1EC40A3F743B4A8217 /* Pods-SocialSignIn_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A383DF55326404372C86A7B57E699CE /* Pods-SocialSignIn_Tests.modulemap */,
+				5C577F58A76DED16A030A8B46DA6ECF5 /* Pods-SocialSignIn_Tests-acknowledgements.markdown */,
+				60D0C4878E9E2A0EC4A5C8BC1C077240 /* Pods-SocialSignIn_Tests-acknowledgements.plist */,
+				76F0A37AF5A56752DA8D9187C022D107 /* Pods-SocialSignIn_Tests-dummy.m */,
+				B7ABD509D1B5965ED28DBD46744C1272 /* Pods-SocialSignIn_Tests-Info.plist */,
+				9342FE4550E8DA40799F9EE58710CE3D /* Pods-SocialSignIn_Tests-umbrella.h */,
+				49A52DD9F02B32568B55EF255F4467DB /* Pods-SocialSignIn_Tests.debug.xcconfig */,
+				25B99C45B08A4CB28F6C2290BF707044 /* Pods-SocialSignIn_Tests.release.xcconfig */,
+			);
+			name = "Pods-SocialSignIn_Tests";
+			path = "Target Support Files/Pods-SocialSignIn_Tests";
+			sourceTree = "<group>";
+		};
+		373AFD701052C839D06A5B93897E2A92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7F3D45872ED11BF5719B5A8A6436CCC /* LICENSE */,
+				1F8B15243DB14AFAE7464C205C0EC548 /* README.md */,
+				FF8ED9F3C1EF64D65944CDABE4DC7F2C /* SocialSignIn.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5104C2AC99B3CC194A14C9C0242E2082 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E87EB8CBB98A89D1D012DF088786125 /* SocialSignIn */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C236C62B5E5B48678AFB8CF502B5FD2 /* Pods-SocialSignIn_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E48EF61CA545703719FD2F5374CDB /* Pods-SocialSignIn_Example.modulemap */,
+				FD11CFAB2DA966283D36EFD8EB6902D3 /* Pods-SocialSignIn_Example-acknowledgements.markdown */,
+				C51EB0389E1FD79697F68ED7677D7D3B /* Pods-SocialSignIn_Example-acknowledgements.plist */,
+				F905E4C246BBEF02876986C5596AAD8D /* Pods-SocialSignIn_Example-dummy.m */,
+				6884932AB1288B45BB1A8F84FA369F75 /* Pods-SocialSignIn_Example-frameworks.sh */,
+				999C6A361335C0EDBECDBFD449E4A9C5 /* Pods-SocialSignIn_Example-Info.plist */,
+				245966F2404086E088C73CB4B23764E6 /* Pods-SocialSignIn_Example-umbrella.h */,
+				F8E221E28F84D2BA5CA48F1D35E707EE /* Pods-SocialSignIn_Example.debug.xcconfig */,
+				3072CF11386C705827079E489DC657AF /* Pods-SocialSignIn_Example.release.xcconfig */,
+			);
+			name = "Pods-SocialSignIn_Example";
+			path = "Target Support Files/Pods-SocialSignIn_Example";
+			sourceTree = "<group>";
+		};
+		7A93D4A3EE6DFF7D673F55F08D213847 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C236C62B5E5B48678AFB8CF502B5FD2 /* Pods-SocialSignIn_Example */,
+				151C107062C48A1EC40A3F743B4A8217 /* Pods-SocialSignIn_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7E87EB8CBB98A89D1D012DF088786125 /* SocialSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFEEA283BAE6300E703F7 /* Source */,
+				373AFD701052C839D06A5B93897E2A92 /* Pod */,
+				BE65EB30E945CED37BE419EF7FDD4AAB /* Support Files */,
+			);
+			name = SocialSignIn;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8360C62ED184DEA91841343FDF8879A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D58D28A8330B6709FAB759172C2891 /* Pods_SocialSignIn_Example.framework */,
+				E7937CB929446514FBDB119B4B645B3B /* Pods_SocialSignIn_Tests.framework */,
+				B4B45F0BC3F63B711F8BABAA541E6225 /* SocialSignIn.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0AFEEA283BAE6300E703F7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFEEB283BAE7C00E703F7 /* GoogleSignIn.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BE65EB30E945CED37BE419EF7FDD4AAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AF000A75DA2FBB356228DCD600CC027 /* SocialSignIn.modulemap */,
+				36C66A75E07AB8F430EA54491EDD88D7 /* SocialSignIn-dummy.m */,
+				AACCB3373CD479DE5278887736CC2FE0 /* SocialSignIn-Info.plist */,
+				DBFCCAE66CEF87CA0054C5278C057D3F /* SocialSignIn-prefix.pch */,
+				DAE4BAF35D9FB18417AC08FAABB50938 /* SocialSignIn-umbrella.h */,
+				56D645FADA5626BB17FF4F1C34604855 /* SocialSignIn.debug.xcconfig */,
+				A86ADA14B01A3CDB3BE53FC05F045B47 /* SocialSignIn.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SocialSignIn";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5104C2AC99B3CC194A14C9C0242E2082 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8360C62ED184DEA91841343FDF8879A2 /* Products */,
+				7A93D4A3EE6DFF7D673F55F08D213847 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09BBED6D5F2CA762F07F32178258F99E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CAD67D66D3C878B7C3B660769CD7EC /* SocialSignIn-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5A75F2154BE3697EE8A874D190DAC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A15B764E58E5305BB5EBAD3F875FA9F /* Pods-SocialSignIn_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54A41B29E52EE1FC00F28443B10FC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E489C8968668C9C017D1AFA4D22974F /* Pods-SocialSignIn_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		368885331187646DCF2B9FE80FE31C8D /* SocialSignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A0C31917C164D7BF45841C34875F58 /* Build configuration list for PBXNativeTarget "SocialSignIn" */;
+			buildPhases = (
+				09BBED6D5F2CA762F07F32178258F99E /* Headers */,
+				C6E499EF9F7EA6E0DBB72B5806067D4B /* Sources */,
+				98A8573B1C96C4AA5612C99768BEDC7A /* Frameworks */,
+				E0DC8C223244CC6503E8AEE8F0C8A548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialSignIn;
+			productName = SocialSignIn;
+			productReference = B4B45F0BC3F63B711F8BABAA541E6225 /* SocialSignIn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94D6405B9AB53CD4FD3043DBE91F3E34 /* Pods-SocialSignIn_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064797CAE704CF5378367724B15410E3 /* Build configuration list for PBXNativeTarget "Pods-SocialSignIn_Example" */;
+			buildPhases = (
+				FB54A41B29E52EE1FC00F28443B10FC3 /* Headers */,
+				A4ED92A51305899D41B32B67E5234A4F /* Sources */,
+				78AA3F71D809B486E391D93242598E40 /* Frameworks */,
+				5E63060F0BC58D86F8E9E99DFA504AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A966135727F66423FF54BAEB355ED5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialSignIn_Example";
+			productName = Pods_SocialSignIn_Example;
+			productReference = F2D58D28A8330B6709FAB759172C2891 /* Pods_SocialSignIn_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B24DB477C7AE6C46630B803429051B8A /* Pods-SocialSignIn_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79822DB1DF2525AD619118BB7D733A91 /* Build configuration list for PBXNativeTarget "Pods-SocialSignIn_Tests" */;
+			buildPhases = (
+				2D5A75F2154BE3697EE8A874D190DAC9 /* Headers */,
+				685E67AD59AB9110C014263134B03141 /* Sources */,
+				69FB33F6A362815B3A8B2EAE4780C140 /* Frameworks */,
+				C2276DCD0B3911816C244F8E02E0F4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4702921C89BC30C29F35EA970B668289 /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialSignIn_Tests";
+			productName = Pods_SocialSignIn_Tests;
+			productReference = E7937CB929446514FBDB119B4B645B3B /* Pods_SocialSignIn_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					94D6405B9AB53CD4FD3043DBE91F3E34 = {
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8360C62ED184DEA91841343FDF8879A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D6405B9AB53CD4FD3043DBE91F3E34 /* Pods-SocialSignIn_Example */,
+				B24DB477C7AE6C46630B803429051B8A /* Pods-SocialSignIn_Tests */,
+				368885331187646DCF2B9FE80FE31C8D /* SocialSignIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E63060F0BC58D86F8E9E99DFA504AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2276DCD0B3911816C244F8E02E0F4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DC8C223244CC6503E8AEE8F0C8A548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685E67AD59AB9110C014263134B03141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B48BB98861856A39A25507A156EFE5 /* Pods-SocialSignIn_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ED92A51305899D41B32B67E5234A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0AFEEC283BAE7C00E703F7 /* GoogleSignIn.swift in Sources */,
+				41137D0A6745C8B352CD22EC117C4100 /* Pods-SocialSignIn_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E499EF9F7EA6E0DBB72B5806067D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A5B68E3D5A937D0D4ECCF614D82E11 /* SocialSignIn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4702921C89BC30C29F35EA970B668289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SocialSignIn_Example";
+			target = 94D6405B9AB53CD4FD3043DBE91F3E34 /* Pods-SocialSignIn_Example */;
+			targetProxy = 25C4B5D7359BD39E4DBFA3282EE14ED7 /* PBXContainerItemProxy */;
+		};
+		67A966135727F66423FF54BAEB355ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocialSignIn;
+			target = 368885331187646DCF2B9FE80FE31C8D /* SocialSignIn */;
+			targetProxy = 787EACA93754A75854124C83BB058716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17BFA7A61A6C80E29E15FA6DDBA4F028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86ADA14B01A3CDB3BE53FC05F045B47 /* SocialSignIn.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialSignIn/SocialSignIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialSignIn/SocialSignIn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialSignIn/SocialSignIn.modulemap";
+				PRODUCT_MODULE_NAME = SocialSignIn;
+				PRODUCT_NAME = SocialSignIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D62CC0A2E0BF10ED2BE90AB746FAE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3072CF11386C705827079E489DC657AF /* Pods-SocialSignIn_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E7177B2BB47939B4A98C9676EFB0767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B99C45B08A4CB28F6C2290BF707044 /* Pods-SocialSignIn_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E8F5595E6371A6FE02B5A3A99CFFB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A52DD9F02B32568B55EF255F4467DB /* Pods-SocialSignIn_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82B8590871E44C8FA4A0710C1BC49824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E221E28F84D2BA5CA48F1D35E707EE /* Pods-SocialSignIn_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87D5E60E8CEB9CD499FA7E170AE7FC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D645FADA5626BB17FF4F1C34604855 /* SocialSignIn.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialSignIn/SocialSignIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialSignIn/SocialSignIn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialSignIn/SocialSignIn.modulemap";
+				PRODUCT_MODULE_NAME = SocialSignIn;
+				PRODUCT_NAME = SocialSignIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064797CAE704CF5378367724B15410E3 /* Build configuration list for PBXNativeTarget "Pods-SocialSignIn_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B8590871E44C8FA4A0710C1BC49824 /* Debug */,
+				4D62CC0A2E0BF10ED2BE90AB746FAE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79822DB1DF2525AD619118BB7D733A91 /* Build configuration list for PBXNativeTarget "Pods-SocialSignIn_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8F5595E6371A6FE02B5A3A99CFFB56 /* Debug */,
+				4E7177B2BB47939B4A98C9676EFB0767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A0C31917C164D7BF45841C34875F58 /* Build configuration list for PBXNativeTarget "SocialSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D5E60E8CEB9CD499FA7E170AE7FC1A /* Debug */,
+				17BFA7A61A6C80E29E15FA6DDBA4F028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A83DE8C4CEA3D2797090CC7 /* SocialSignIn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SocialSignIn.podspec; path = ../SocialSignIn.podspec; sourceTree = "<group>"; };
+		0A83DE8C4CEA3D2797090CC7 /* SocialSignIn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SocialSignIn.podspec; path = ../SocialSignIn.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D7CE09B6B18299772F74D82 /* Pods-SocialSignIn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSignIn_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30FCF4961D5ADC0F8CCCB72F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30FCF4961D5ADC0F8CCCB72F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		316A5467E037EC5D76B96C36 /* Pods-SocialSignIn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSignIn_Tests.release.xcconfig"; path = "Target Support Files/Pods-SocialSignIn_Tests/Pods-SocialSignIn_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DE1CAC447FA179C2F925998 /* Pods-SocialSignIn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSignIn_Example.release.xcconfig"; path = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example.release.xcconfig"; sourceTree = "<group>"; };
 		58A92FE586BEFDC71D02E712 /* Pods_SocialSignIn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSignIn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A31F898F2CD558D7E380513C /* Pods_SocialSignIn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSignIn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1432F5BA5BC9625951D4B8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1432F5BA5BC9625951D4B8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F36B4459E80C7AE23B067D75 /* Pods-SocialSignIn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSignIn_Example.debug.xcconfig"; path = "Target Support Files/Pods-SocialSignIn_Example/Pods-SocialSignIn_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				1D7CE09B6B18299772F74D82 /* Pods-SocialSignIn_Tests.debug.xcconfig */,
 				316A5467E037EC5D76B96C36 /* Pods-SocialSignIn_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
