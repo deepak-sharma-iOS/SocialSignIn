@@ -7,6 +7,13 @@
 
 import Foundation
 
-class GoogleSignIn {
+open class GoogleSignIn {
+  private init() {
+    
+  }
+  
+  static func initiateGoogleSignIn() {
+    
+  }
   
 }
