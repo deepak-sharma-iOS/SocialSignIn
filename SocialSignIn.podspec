@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SocialSignIn'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Learning purpose'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/deepak-sharma-iOS/SocialSignIn'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'thedeepaksharma12@gmail.com' => 'thedeepaksharma12@gmail.com' }
+  s.author           = { 'Deepak' => 'thedeepaksharma12@gmail.com' }
   s.source           = { :git => 'https://github.com/deepak-sharma-iOS/SocialSignIn.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -42,5 +42,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Alamofire'
 end

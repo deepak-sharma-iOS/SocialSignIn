@@ -1,16 +1,24 @@
 PODS:
-  - SocialSignIn (0.1.0)
+  - Alamofire (5.6.1)
+  - SocialSignIn (0.1.1):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - SocialSignIn (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   SocialSignIn:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SocialSignIn: 3f99ae73718658d3808375eaaf5663886ffe8b83
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  SocialSignIn: 430abf225f73d6f73cbe747609c74ccd260fbc7b
 
-PODFILE CHECKSUM: ac624a64a5cc6fac85ba0ac47c2f0389fdeca775
+PODFILE CHECKSUM: 7dca400afd1aced7b0b40085fb472f42522559e0
 
 COCOAPODS: 1.11.3
