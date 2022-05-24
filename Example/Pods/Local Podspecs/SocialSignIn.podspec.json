@@ -1,6 +1,6 @@
 {
   "name": "SocialSignIn",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "Learning purpose",
   "description": "\"Learning purpose\"",
   "homepage": "https://github.com/deepak-sharma-iOS/SocialSignIn",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/deepak-sharma-iOS/SocialSignIn.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "12.0"

@@ -8,12 +8,10 @@
 import Foundation
 
 open class GoogleSignIn {
-  private init() {
-    
-  }
+  public static var instance = GoogleSignIn()
   
-  static func initiateGoogleSignIn() {
-    
+  func initiateGoogleSignIn() {
+    print("Hello World")
   }
   
 }
