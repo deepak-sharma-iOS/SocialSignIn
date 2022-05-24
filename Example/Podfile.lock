@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.1)
-  - SocialSignIn (0.1.3):
+  - SocialSignIn (0.1.4):
     - Alamofire
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  SocialSignIn: 1f04c1458de9257ee9ffe44aab5d92c920ea73c0
+  SocialSignIn: 23a81bbe7331d9f7f4284217b653512fe4a5b0a3
 
 PODFILE CHECKSUM: 7dca400afd1aced7b0b40085fb472f42522559e0
 
